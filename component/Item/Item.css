@@ -1,0 +1,50 @@
+.img{
+    width: 200px;
+    height: 300px;
+}
+
+.card-container {
+    margin-top: 100px;
+    margin: 0px auto;
+}
+
+.card-layout{
+    width: 204px;
+    height: 450px;
+    box-shadow: 0 0 11px #ccc;
+    margin: 30px 7px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.new-container{
+    display: flex;
+    justify-content: center;
+}
+
+.coll-content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.coll-content > h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(27, 25, 25);
+    margin-top: 12px;
+}
+
+.coll-brand {
+    font-size: 0.82rem;
+    /* color: rgb(110, 110, 110); */
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.coll-price {
+    font-size: 15px;
+    color: #009688;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
